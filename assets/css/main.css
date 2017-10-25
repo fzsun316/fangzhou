@@ -1,5 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
 /*
 	Read Only by HTML5 UP
@@ -1556,7 +1557,7 @@
 
 	body, input, select, textarea {
 		color: #888;
-		font-family: "Lato", sans-serif;
+		font-family: "Open Sans Condensed", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -1726,8 +1727,8 @@
 	}
 
 	header.major h2 {
-		color: #4acaa8;
-		font-size: 3.5em;
+		color: #D1322E;
+		font-size: 2.5em;
 	}
 
 		header.major h2 + p {
@@ -2075,11 +2076,11 @@
 			ul.feature-icons li {
 				text-decoration: none;
 				display: inline-block;
-				margin: 0 0 1.6875em 0;
-				padding: 0.35em 0 0 3.5em;
+				margin: 0 0 0.5em 0;
+				padding: 0.00em 0 0 2.5em;
 				position: relative;
 				vertical-align: top;
-				width: 48%;
+				width: 98%;
 			}
 
 				ul.feature-icons li:before {
@@ -2092,17 +2093,55 @@
 				}
 
 				ul.feature-icons li:before {
-					background: #4acaa8;
+					background: #898b8a;
 					border-radius: 100%;
 					color: #ffffff;
 					display: block;
-					height: 2.5em;
+					height: 1.5em;
 					left: 0;
-					line-height: 2.5em;
+					line-height: 1.5em;
 					position: absolute;
 					text-align: center;
 					top: 0;
-					width: 2.5em;
+					width: 1.5em;
+				}
+
+		ul.education {
+			list-style: none;
+			padding-left: 0;
+		}
+
+			ul.education li {
+				text-decoration: none;
+				display: inline-block;
+				margin: 0 0 0.5em 0;
+				padding: 0.00em 0 0 2.5em;
+				position: relative;
+				vertical-align: top;
+				/*width: 98%;*/
+			}
+
+				ul.education li:before {
+					-moz-osx-font-smoothing: grayscale;
+					-webkit-font-smoothing: antialiased;
+					font-family: FontAwesome;
+					font-style: normal;
+					font-weight: normal;
+					text-transform: none !important;
+				}
+
+				ul.education li:before {
+					background: #2980B9;
+					border-radius: 100%;
+					color: #ffffff;
+					display: block;
+					height: 1.5em;
+					left: 0;
+					line-height: 1.5em;
+					position: absolute;
+					text-align: center;
+					top: 0;
+					width: 1.5em;
 				}
 
 		ul.icons {
@@ -2474,8 +2513,8 @@
 /* Header */
 
 	#header {
-		background: #283447;
-		color: #d1f1e9;
+		background: #205372;
+		color: #fff;
 		height: 100%;
 		position: fixed;
 		text-align: center;
@@ -2520,7 +2559,7 @@
 			}
 
 			#header > header p {
-				color: #d1f1e9;
+				color: #fff;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2538,7 +2577,7 @@
 			}
 
 				#header > footer .icons li a {
-					color: #b6e9dc;
+					color: #fff;
 				}
 
 		#header > nav ul {
@@ -2548,7 +2587,7 @@
 		}
 
 			#header > nav ul li {
-				border-top: solid 2px #5ccfb0;
+				border-top: solid 1px #898b8a;
 				display: block;
 				padding: 0;
 			}
@@ -2567,7 +2606,7 @@
 
 					#header > nav ul li a.active {
 						background: #fff;
-						color: #4acaa8 !important;
+						color: #1F5E7D !important;
 					}
 
 				#header > nav ul li:first-child {
@@ -2604,7 +2643,7 @@
 		background-size: cover;
 		content: '';
 		display: block;
-		height: 15em;
+		height: 0em;
 		width: 100%;
 	}
 
@@ -2804,7 +2843,7 @@
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #222;
+				background: #1F5E7D;
 				color: #fff;
 				min-width: 320px;
 			}
@@ -2846,7 +2885,7 @@
 					}
 
 					#titleBar .toggle:before {
-						background: #4acaa8;
+						background: #1F5E7D;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
