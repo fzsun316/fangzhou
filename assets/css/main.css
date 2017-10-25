@@ -2535,7 +2535,7 @@
 			bottom: 0;
 			left: 0;
 			padding: 2em;
-			position: absolute;
+			/*position: absolute;*/
 			width: 100%;
 		}
 
